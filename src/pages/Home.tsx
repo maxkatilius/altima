@@ -14,7 +14,7 @@ const Home = () => {
         text-center 
       ">
         <h1 className="text-[6rem]/26">Drones for the Environment</h1>
-        <p className="text-[1.5rem] w-[60%]">Utilising thermal imaging, photogammetry, and insanse greek power to save the oceans</p>
+        <p className="text-[1.5rem] w-[60%]">Utilising thermal imaging, photogammetry, and immense greek power to save the oceans - one reef at a time</p>
         <Link 
         to='projects' 
         className="
@@ -23,6 +23,7 @@ const Home = () => {
           flex gap-4
           text-[1.7rem]
           bg-slate-50/40 rounded-sm
+          hover:bg-emerald-500 hover:text-black transition delay-50 duration-200 ease-in-out
         ">
           Get involved
           <span 
@@ -42,7 +43,7 @@ const Home = () => {
         className="
         fixed top-7 right-10 
         flex gap-4 items-center
-        p-4 rounded-sm
+        py-4 px-6 rounded-sm
         font-medium text-2xl text-white tracking-wide
         bg-slate-900
         hover:bg-emerald-500 hover:text-black transition delay-50 duration-200 ease-in-out
