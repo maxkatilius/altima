@@ -1,6 +1,10 @@
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="flex h-full justify-center items-center bg-[url(./assets/hard.jpg)] bg-cover">
+      <h1 className="text-5xl">
+        Projects
+      </h1>
+    </div>
   )
 }
 
